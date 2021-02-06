@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration:none;
+}
+
+body > h1{
+    text-align:center;
+    margin-top:1em;
+    
+}
+
+body{
+    box-sizing:border-box;
+    background-size:cover;
+    font-family: 'Cinzel', serif;
+    width:100%;
+    height:100%;
+    
+    
+}
+
+/* Header & Nav */
+
+ul{
+    
+    color:rgb(5, 0, 0);
+    font-size:2.5rem;
+    font-family: 'Caveat', cursive; 
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+a:visited{
+    text-decoration: none;
+    color:black;
+}
+
+/* White box with stuff inside */
+.whiteboxcontainer{
+    width:85%;
+    margin:3rem auto;
+    background-color: white;
+    height: calc(100vh - 100px);
+    background-image:url(lauren-mancke-sil2Hx4iupI-unsplash.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
+}
+/* Navlinks home/portfolio/about*/
+.navlinks > ul{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    margin-top:-0.4em;
+    
+}
+
+/* Carwan text inside lemonbackground */
+
+.aboutmediv{
+   border:1px solid green;
+   display:flex;
+   width:100%;
+   height:20em;
+font-size:1em;
+justify-content:center;
+align-items:center;
+}
+
+
+
+
+
+
+
