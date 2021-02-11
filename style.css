@@ -843,6 +843,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 
     .footerstuff > img{
         width:20%;
+        margin-top:1em;
     }
   }
 
